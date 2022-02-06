@@ -1,0 +1,15 @@
+{
+  "name": "taking-control-over-the-editor-for-client-builds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wp-env": "wp-env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^4.2.0"
+  }
+}

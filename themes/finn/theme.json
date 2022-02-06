@@ -1,0 +1,105 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "min(90%, 700px)",
+			"wideSize": "min(95%, 850px)"
+        },
+        "color": {
+            "palette": [
+                {
+                    "name": "Iron",
+                    "slug": "iron",
+                    "color": "#D7D7D9"
+                },
+                {
+                    "name": "Porcelain",
+                    "slug": "porcelain",
+                    "color": "#F2F2F2"
+                },
+                {
+                    "name": "Avocado",
+                    "slug": "avocado",
+                    "color": "#96b450"
+                },
+                {
+                    "name": "Mushroom",
+                    "slug": "mushroom",
+                    "color": "#BFAA8F"
+                },
+                {
+                    "name": "Midnight",
+                    "slug": "midnight",
+                    "color": "#0D0D0D"
+                }
+            ],
+            "defaultPalette": false,
+            "defaultGradients": false,
+            "customGradient": false,
+            "custom": false
+        },
+        "appearanceTools": false,
+        "typography": {
+            "dropCap": false,
+            "customFontSize": false,
+            "fontWeight": false,
+            "fontStyle": false,
+            "textDecoration": false,
+            "lineHeight": false,
+            "letterSpacing": false,
+            "textTransform": false,
+            "fontFamilies": [],
+            "fontSizes": []
+        },
+        "blocks": {
+            "core/paragraph": {
+                "color": {
+                    "background": false
+                }
+            },
+            "core/button": {
+                "color": {
+                    "background": true,
+                    "palette": [
+                        {
+                            "name": "Avocado",
+                            "slug": "avocado",
+                            "color": "#96b450"
+                        },
+                        {
+                            "name": "Mushroom",
+                            "slug": "mushroom",
+                            "color": "#BFAA8F"
+                        },
+                        {
+                            "name": "Midnight",
+                            "slug": "midnight",
+                            "color": "#0D0D0D"
+                        }
+                    ],
+                    "text": false
+                },
+                "border": {
+                    "radius": false
+                }
+            }
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'"
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "background": "var(--wp--preset--color--avocado)",
+                    "text": "var(--wp--preset--color--white)"
+                },
+                "border": {
+                    "radius": "100px"
+                }
+            }
+        }
+    }
+}

@@ -24,6 +24,11 @@
                     "color": "#96b450"
                 },
                 {
+                    "name": "Olive",
+                    "slug": "olive",
+                    "color": "#5A7814"
+                },
+                {
                     "name": "Mushroom",
                     "slug": "mushroom",
                     "color": "#BFAA8F"
@@ -32,30 +37,36 @@
                     "name": "Midnight",
                     "slug": "midnight",
                     "color": "#0D0D0D"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#ffffff"
                 }
             ],
             "defaultPalette": false,
             "defaultGradients": false,
             "customGradient": false,
-            "custom": false
+            "custom": false,
+            "duotone": [],
+            "customDuotone": false
         },
-        "appearanceTools": false,
         "typography": {
             "dropCap": false,
-            "customFontSize": false,
-            "fontWeight": false,
-            "fontStyle": false,
             "textDecoration": false,
             "lineHeight": false,
             "letterSpacing": false,
-            "textTransform": false,
-            "fontFamilies": [],
-            "fontSizes": []
+            "fontFamilies": []
         },
         "blocks": {
             "core/paragraph": {
                 "color": {
                     "background": false
+                }
+            },
+            "core/group": {
+                "spacing": {
+                    "padding": true
                 }
             },
             "core/button": {
@@ -66,6 +77,11 @@
                             "name": "Avocado",
                             "slug": "avocado",
                             "color": "#96b450"
+                        },
+                        {
+                            "name": "Olive",
+                            "slug": "olive",
+                            "color": "#5A7814"
                         },
                         {
                             "name": "Mushroom",
@@ -88,7 +104,8 @@
     },
     "styles": {
         "typography": {
-            "fontFamily": "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'"
+            "fontFamily": "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'",
+            "lineHeight": "1.25"
         },
         "blocks": {
             "core/button": {

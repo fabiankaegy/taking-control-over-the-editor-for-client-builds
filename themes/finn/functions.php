@@ -10,9 +10,16 @@
  */
 function finn_theme_setup() {
 	add_theme_support( 'editor-styles' );
+	remove_theme_support( 'core-block-patterns' );
+	remove_theme_support( 'block-templates' );
+
+	register_block_pattern_category(
+		'layout',
+		[ 'label' => __( 'Layout', 'finn' ) ]
+	);
 }
 
-add_action( 'theme_setup', 'finn_theme_setup' );
+add_action( 'after_setup_theme', 'finn_theme_setup' );
 
 
 /**
